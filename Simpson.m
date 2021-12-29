@@ -9,6 +9,9 @@
             %ENG /SABER
 % Ask for user input
 % Lower bound (a)
+clear all;
+close all;
+clc;
 a = input('What is your lower bound (a)?')
 % Upper bound (b)
 b = input('What is your upper bound (b)?')
