@@ -10,7 +10,6 @@
 
 % Numerical Method 
 % Euler method using MATLAB coding
-% Euler method also known as Runge-Kutta method of order 2
 clear all;
 close all;
 clc;
