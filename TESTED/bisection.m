@@ -7,7 +7,7 @@
             %ENG/OMAR MAHMOUD MOHAMED
             %ENG/Mahmoud Magdy Mohamed 
             %ENG /SABER
-
+%clearing all old variable and close all 
 clear all;
 close all;
 % Clearing Screen
