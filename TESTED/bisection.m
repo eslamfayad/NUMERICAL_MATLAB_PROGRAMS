@@ -8,7 +8,8 @@
             %ENG/Mahmoud Magdy Mohamed 
             %ENG /SABER
 
-
+clear all;
+close all;
 % Clearing Screen
 clc
 
