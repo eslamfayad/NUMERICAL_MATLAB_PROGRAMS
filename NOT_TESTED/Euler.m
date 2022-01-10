@@ -14,18 +14,19 @@ clear all;
 close all;
 clc;
 
-f=inline('y-t^2+1');
+%f=inline('y-t^2+1');
+f=inline('x+y+1');
 x0=input('Enter x0=');
 y0=input('Enter y0=');
 xn=input('Enter upper limit of interval xn=');
-h=input('Enter width (equal space) h=');
-n=(xn-x0)/h;
+h=input('Enter width (Step SIZE) h=');
+n=(xn-x0)/h;   % determine how many intervals
 
 fprintf('--------------------------------------------\n')
 fprintf('    x              y            ynew\n');
 fprintf('--------------------------------------------\n')
 
-for i=1:n
+for i=1:n+1
     y1=y0+h*f(x0,y0);
     fprintf('%f      %f       %f \n',x0,y0,y1)
     y0=y1;

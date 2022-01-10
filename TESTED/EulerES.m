@@ -16,19 +16,19 @@ if(h > 0)
     the_start=input('enter the starting value of x =      ');
     the_end=input('enter the end value of x =      ');
     if (the_end > 0)
-        if(the_end == the_start)
+        if(the_end > the_start)
             x=the_start:h:the_end;
             fprintf('the value of x = %f  \n',x);
             y=zeros(size(x));
             y(1)=input('insert the initial value of y0   ');
             n=numel(y);
             for i=1:n-1
-                f = x(i)+y(i);
+                f = x(i)+y(i)+1;
                 y(i+1) = y(i) + h * f;
             end
-            fprintf('the value of y(n+1) = %f  \n',y);
+            fprintf('the value of y('+the_end+') = %f  \n',y);
         else
-            fprintf('the max value of x should be greater than min valye of x \n');
+            fprintf('the max value of x should be greater than min value of x \n');
             
         end
     else
@@ -39,3 +39,4 @@ else
     fprintf('the step size must be greater than zero \n');
     
 end
+
