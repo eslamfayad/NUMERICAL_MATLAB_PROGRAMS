@@ -22,7 +22,7 @@ if(h > 0)
             y=zeros(size(x));
             y(1)=input('insert the initial value of y0   ');
             n=numel(y);
-            for i=1:n-1
+            for i=1:n
                 f = x(i)+y(i)+1;%insert the function here
                 y(i+1) = y(i) + h * f;
             end
