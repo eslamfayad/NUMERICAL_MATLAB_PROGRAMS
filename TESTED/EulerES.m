@@ -23,10 +23,10 @@ if(h > 0)
             y(1)=input('insert the initial value of y0   ');
             n=numel(y);
             for i=1:n-1
-                f = x(i)+y(i)+1;
+                f = x(i)+y(i)+1;%insert the function here
                 y(i+1) = y(i) + h * f;
             end
-            fprintf('the value of y('+the_end+') = %f  \n',y);
+            fprintf('the value of y(n+1) = %f  \n',y);
         else
             fprintf('the max value of x should be greater than min value of x \n');
             
