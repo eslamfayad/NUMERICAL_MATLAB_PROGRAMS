@@ -6,7 +6,7 @@
             %ENG /AHMED SOLIMAN Abd elrahman
             %ENG/OMAR MAHMOUD MOHAMED
             %ENG/Mahmoud Magdy Mohamed 
-            %ENG /SABER
+            %ENG /SABERMohamed Husien
 
 % Numerical Method 
 % Euler method using MATLAB coding

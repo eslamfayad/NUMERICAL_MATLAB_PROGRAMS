@@ -6,7 +6,7 @@
             %ENG /AHMED SOLIMAN Abd elrahman
             %ENG/OMAR MAHMOUD MOHAMED
             %ENG/Mahmoud Magdy Mohamed 
-            %ENG /SABER
+            %ENG /SABER Mohamed Husien
 %find the root of the function f(x) = x2-2 = 0 by using Secant Method
 clear all;
 close all;

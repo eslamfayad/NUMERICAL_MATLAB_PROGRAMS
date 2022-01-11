@@ -6,7 +6,7 @@
             %ENG /AHMED SOLIMAN Abd elrahman
             %ENG/OMAR MAHMOUD MOHAMED
             %ENG/Mahmoud Magdy Mohamed 
-            %ENG /SABER
+            %ENG /SABER Mohamed Husien
 
 % let the equation whose root we want to find be f(x) = e^-x =0
 % simplified eqation example:-  x = e^-x

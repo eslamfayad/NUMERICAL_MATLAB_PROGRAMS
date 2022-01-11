@@ -7,21 +7,21 @@
             %ENG /AHMED SOLIMAN Abd elrahman
             %ENG/OMAR MAHMOUD MOHAMED
             %ENG/Mahmoud Magdy Mohamed 
-            %ENG /SABER
+            %ENG /SABER Mohamed Husien
 % newton forward and backward interpolation
 clc;
 close all;
 
-% n = input(' Enter no of values in X:');
-% for a = 1:n
-%     X(a)= input('Enter elements of arry X');
-% end
-% for b =1:n
-%     Y(b)= input('Enter elements of arry Y')
-% end
-X = [20 23 26 29];
-Y = [0.342 0.3907 0.4384 0.4848];
-n = length(X);
+n = input(' Enter no of values in X:');
+%for a = 1:n
+    X= input('Enter elements of arry X=');
+%end
+%for b =1:n
+    Y= input('Enter elements of arry Y=')
+%end
+ % X = [20 23 26 29];
+% Y = [0.342 0.3907 0.4384 0.4848];
+% n = length(X);
 
 x = input('Enter particular value of X at which we have to find value of Y');
 h = X(2) - X(1)
